@@ -39,6 +39,7 @@ const pizzaController = {
 
     // update pizza by id
     updatePizza({ params, body }, res) {
+        // the "where" clause is used first, then the updated data, then options for how the data should be returned.
         Pizza.findOneAndUpdate({ _id: params.id }, body, { new: true })
             .then(dbPizzaData => {
                 if (!dbPizzaData) {
