@@ -10,7 +10,7 @@ Even though SQL remains the most widely known and used database system, JavaScri
 
 This makes MongoDB a good choice to help power the API layer of this application, because it will be able to accommodate the client's fluid ideas.
 
-##Technologies Used
+## Technologies Used
 
  MongoDB - a general purpose, document-based, distributed NoSQL database built for web application developers in the cloud era. It’s one of the most popular database choices for modern applications.
 
